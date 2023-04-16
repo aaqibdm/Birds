@@ -1,0 +1,107 @@
+/* display background color black on navbar scroll */
+.navbarScroll {
+    background-color:rgb(152, 152, 152);
+}
+/* home background image */
+.home-bgimage {
+    height:100vh;
+    background: url('images/Screenshot\ \(2\).png');
+    background-size:cover;
+    position:relative;
+}
+
+/* gallery css start*/
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* gallery css end*/
+
+  /*About page bgimage*/
+  .about-bgimage {
+    height:75vh;
+    background: url('images/slide4.png');
+    background-size:cover;
+    position:relative;
+}
+/*about bg 2*/
+.aboutbgimage{
+  height:75vh;
+  background: url('images/about.png');
+  background-size:cover;
+  position:relative;
+}
+/* text css above 2 image*/
+.hero_title {
+  font-size: 4.5rem;
+}
+.hero_desc {
+  font-size: 2rem;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/*Gallery bg 2*/
+.Gallery-bgimage{
+  height:100vh;
+  background: url('images/slide2.jpg');
+  background-size:cover;
+  position:relative;
+}
+/* contact bg*/
+.contact-bgimage{
+  height:100vh;
+  background: url('images/slide1.jpg');
+  background-size:cover;
+  position:relative;
+}
+/* services bg*/
+.services-bgimage{
+  height:100vh;
+  background: url('images/AnimalAid.png');
+  background-size:cover;
+  position:relative;
+}
